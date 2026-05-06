@@ -14,7 +14,7 @@ BINARY="${REPO_DIR}/${BUILD_DIR_NAME}/bin/llama-server"
 
 # Latest stable commit rebased on upstream.
 # Update this when experimental work is merged or upstream moves again.
-STABLE_REF="f53577432"
+STABLE_REF="a290ce626"
 
 if [[ -x "$BINARY" ]]; then
     echo "ensure-server: llama-server exists, skipping build"
